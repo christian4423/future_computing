@@ -62,6 +62,7 @@
   },
   "dependencies": {
     "amazon-products-api": "0.0.4",
+    "babel-cli": "^6.24.1",
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.7.0",
     "jquery": "^2.2.0"

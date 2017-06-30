@@ -19,7 +19,6 @@ bld/
 photos/users/
 node_modules/
 public/
-.vscode/
 
 # Roslyn cache directories
 *.ide/

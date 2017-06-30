@@ -13,7 +13,7 @@ module.exports = function (sequelize, DataTypes) {
             classMethods: {
                 associate: function (models) {
                         UserRole.belongsTo(models.Users, { foreignKey: 'user_id', as: "User", onDelete:"SET NULL", onUpdate: "CASCADE", hooks: true }),
-                        UserRole.belongsTo(models.Roles, { foreignKey: 'role_id', as: "Role", onDelete:"SET NULL", onUpdate: "CASCADE", hooks: true  })
+                        UserRole.belongsTo(models.Roles, { foreignKey: 'role_id', as: "Role", onDelete:"NO ACTION", onUpdate: "CASCADE", hooks: true  })
                 }
             },
             tableName: "UserRole",

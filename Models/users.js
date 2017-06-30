@@ -29,7 +29,7 @@ module.exports = function (sequelize, DataTypes) {
             unique: true,
             allowNull: false
         },
-        profile_pic: {
+        profilepic: {
             type: DataTypes.TEXT,
             field: 'profile_pic',
             defaultValue: "/photos/default.jpg",
