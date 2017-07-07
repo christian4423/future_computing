@@ -8,17 +8,17 @@ This is going to be a website logging my research on DNA computing and other typ
 
 # API
 
-1. [Default](#-)
-2. [Users](#-users-)
-3. [Users/:id](#-users-id)
-4. [Roles](#-roles-)
-5. [Roles/:id](#-roles-id)
+1. [Default](#default)
+2. [Users](#users)
+3. [Users/:id](#-usersid)
+4. [Roles](#roles)
+5. [Roles/:id](#rolesid)
 
 ## Routes:
 
-## /
+## Default
 
-#### GET-1
+#### GET
 * Returns status (__200__) and JSON of API saying welcome
 
 
