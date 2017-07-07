@@ -9,13 +9,13 @@ This is going to be a website logging my research on DNA computing and other typ
 # API
 ## Routes:
 
-### /
+### 1. /
 
 #### GET
 * Returns status (__200__) and JSON of API saying welcome
 
 
-### /users
+### 2. /users
 
 #### GET
 * Returns status (__200__) and JSON of all users and thier role(s)
@@ -35,7 +35,7 @@ This is going to be a website logging my research on DNA computing and other typ
 | email | string | null | yes |
 | password | string | null | yes |
 
-### /users/:id
+### 3. /users/:id
 ###### Params:
 *Same for all routes* 
 
@@ -55,7 +55,7 @@ This is going to be a website logging my research on DNA computing and other typ
 __Needs Implementation__
 
 
-### /roles
+### 4. /roles
 
 #### GET
 * Returns  status (__200__) and JSON of all roles
@@ -71,23 +71,8 @@ __Needs Implementation__
 |------|------|---------|----------|
 | role | string | null | yes |
 
-### /roles/:id
 
-#### GET
-* Returns  status (__200__) of all roles
-* Returns status (__412__) and a JSON message if not successful.
-
-#### POST
-* Creates a new role
-* Returns  status (__200__) and JSON of the new role
-* Returns status (__412__) and a JSON message if not successful.
-###### Params:
-
-| Name | Type | Default | Required |
-|------|------|---------|----------|
-| role | string | null | yes |
-
-### /roles/:id
+### 5. /roles/:id
 ###### Params:
 *Same for all routes* 
 | Name | Type | Default | Required |
