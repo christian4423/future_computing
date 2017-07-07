@@ -8,21 +8,21 @@ This is going to be a website logging my research on DNA computing and other typ
 
 # API
 
-1. [Link to Header](1-/) /
-2. [Link to Header](2-/users/) /users/
+1. [Link](#1-/) /
+2. [Link](#2-/users/) /users/
 3. /users/:id
 4. /roles/
 5. /roles/:id
 
 ## Routes:
 
-### 1. /
+### /
 
 #### GET
 * Returns status (__200__) and JSON of API saying welcome
 
 
-### 2. /users
+### /users
 
 #### GET
 * Returns status (__200__) and JSON of all users and thier role(s)
