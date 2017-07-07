@@ -1,5 +1,3 @@
-import pass from "password-hash-and-salt";
-
 module.exports = app => {
     const Roles = app.db.models.Roles;
     app.route("/roles")
@@ -46,16 +44,3 @@ module.exports = app => {
                 });
         })
 };
-
-
-const MakeHash = (secret) => {
-    return new Promise((resolve, reject) => {
-        pass(secret).hash(function (error, hash) {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(hash);
-            }
-        });
-    });
-}
