@@ -38,6 +38,7 @@ This is going to be a website logging my research on DNA computing and other typ
 ### /users/:id
 ###### Params:
 *Same for all routes* 
+
 | Name | Type | Default | Required |
 |------|------|---------|----------|
 | id | int | null | yes |
