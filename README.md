@@ -10,7 +10,7 @@ This is going to be a website logging my research on DNA computing and other typ
 
 1. [Default](#default)
 2. [Users](#users)
-3. [Users/:id](#-usersid)
+3. [Users/:id](#usersid)
 4. [Roles](#roles)
 5. [Roles/:id](#rolesid)
 
