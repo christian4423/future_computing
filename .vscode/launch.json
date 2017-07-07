@@ -12,29 +12,20 @@
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
-            "preLaunchTask": null,
-            "runtimeExecutable": "${workspaceRoot}/node_modules/babel-cli/lib/babel-node.js",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node.cmd",
             "runtimeArgs": [
-                "--nolazy"
+                "--noLazy",
+                "--inspect"
             ],
-            "env": {
-                "NODE_ENV": "development"
-            },
             "console": "internalConsole",
             "sourceMaps": false,
             "outFiles": []
         },
         {
-            "name": "Attach",
+            "name": "Attach to Process",
             "type": "node",
             "request": "attach",
-            "port": 5858,
-            "address": "localhost",
-            "restart": false,
-            "sourceMaps": false,
-            "outFiles": [],
-            "localRoot": "${workspaceRoot}",
-            "remoteRoot": null
+            "port": 9229
         }
     ]
 }
