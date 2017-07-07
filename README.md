@@ -7,6 +7,13 @@ This is going to be a website logging my research on DNA computing and other typ
 * NodeJS > v6
 
 # API
+
+1. [Link to Header](1-/) /
+2. [Link to Header](2-/users/) /users/
+3. /users/:id
+4. /roles/
+5. /roles/:id
+
 ## Routes:
 
 ### 1. /
@@ -75,6 +82,7 @@ __Needs Implementation__
 ### 5. /roles/:id
 ###### Params:
 *Same for all routes* 
+
 | Name | Type | Default | Required |
 |------|------|---------|----------|
 | id | int | null | yes |
