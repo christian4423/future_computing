@@ -8,22 +8,22 @@ This is going to be a website logging my research on DNA computing and other typ
 
 # API
 
-1. [Link](#1-/) /
-2. [Link](#2-/users/) /users/
-3. /users/:id
-4. /roles/
-5. /roles/:id
+1. [Default](#-)
+2. [Users](#-users-)
+3. [Users/:id](#-users-id)
+4. [Roles](#-roles-)
+5. [Roles/:id](#-roles-id)
 
 ## Routes:
 
-### /
+## /
 
-#### GET
+#### GET-1
 * Returns status (__200__) and JSON of API saying welcome
 
 
-### /users
-
+### /users/
+[back to top](#future-computing)
 #### GET
 * Returns status (__200__) and JSON of all users and thier role(s)
 * Returns status (__412__) and a JSON message if not successful.
@@ -42,7 +42,8 @@ This is going to be a website logging my research on DNA computing and other typ
 | email | string | null | yes |
 | password | string | null | yes |
 
-### 3. /users/:id
+### /users/:id
+[back to top](#future-computing)
 ###### Params:
 *Same for all routes* 
 
@@ -62,8 +63,8 @@ This is going to be a website logging my research on DNA computing and other typ
 __Needs Implementation__
 
 
-### 4. /roles
-
+### /roles/
+[back to top](#future-computing)
 #### GET
 * Returns  status (__200__) and JSON of all roles
 * Returns status (__412__) and a JSON message if not successful.
@@ -79,7 +80,8 @@ __Needs Implementation__
 | role | string | null | yes |
 
 
-### 5. /roles/:id
+### /roles/:id
+[back to top](#future-computing)
 ###### Params:
 *Same for all routes* 
 
@@ -97,3 +99,4 @@ __Needs Implementation__
 #### DELETE
 * Removes Role From Database
 * Returns a status code of (__204__) if successful or (__412__) if not successful.
+
