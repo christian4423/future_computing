@@ -10,9 +10,19 @@ This is going to be a website logging my research on DNA computing and other typ
 
 1. [Default](#default)
 2. [Users](#users)
+ * [GET](#get-1)
+ * [POST](#post)
 3. [Users/:id](#usersid)
+ * [GET](#get-2)
+ * [DELETE](#delete)
+ * [PUT](#put)
 4. [Roles](#roles)
+ * [GET](#get-3)
+ * [POST](#post-1)
 5. [Roles/:id](#rolesid)
+ * [GET](#get-4)
+ * [DELETE](#delete-1)
+ * [PUT](#put-1)
 
 ## Routes:
 
